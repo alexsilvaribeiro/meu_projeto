@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: yellow; 
+
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    
+  
+}
+
+header{
+    background-color: blue;
+}
+
+.paco-frevo{
+    background-color: red;
+    color: white;
+}
+
+.rua-da-moeda{
+    background-color: yellow;
+    color:black;
+}
+
+h1{
+    color: white;
+}
+
+a[href*="recife"]{
+    text-decoration: none;
+    color: red;
+
+
+}
+
+a[href*="index"]{
+    text-decoration: none;
+    color: red;
+
+}
+
+footer{
+    display: flex;
+    text-decoration: none;
+    gap: 3rem;
+
+}
