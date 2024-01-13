@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário HTML</h1>
+    <a href="./recifeAntigo.html">Recife Antigo</a>
+    <br><br>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email:" id="email"><br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone"><br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha"><br>
+        <section>
+            <!-- Input do Tipo RADIO:  -->
+            <p>Nacionalidade:</p> <!-- mesmo "name" limita a escolha do usuario  -->
+            <input type="radio" name="nacionalidade" id="brasil" value="brasil"> 
+            <label for="brasil">Brasileiro(a)</label>
+            <input type="radio" name="nacionalidade" id="outro" value="outro">
+            <label for="outro">Estrangeiro(a)</label>
+        </section>
+        <section> <!-- Input do Tipo checkbox:  -->
+            <p>Meio de transporte</p><!-- permite escolha de várias opçoes -->
+            <input type="checkbox" name="meio-transporte" id="pe" value="pe">
+            <label for="pe">A pé</label>
+            <input type="checkbox" name="meio-transporte" id="carro" value="carro">
+            <label for="carro">Carro</label>
+            <input type="checkbox" name="meio-transporte" id="bicicleta" value="bicicleta">
+            <label for="bibicleta">Bicicleta</label>
+        </section>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
