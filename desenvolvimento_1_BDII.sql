@@ -32,12 +32,12 @@ select nome_dono, nome_animal from animal
 inner join dono
 on dono.id_dono = animal.dono_id;
 
--- Left Join: Registros só da tabela ALUNOS
+-- Left Join:
 select nome_dono, nome_animal from animal
 left join dono
 on dono.id_dono = animal.dono_id;
 
--- Right Join: Registros só da tabela DISCIPLINAS
+-- Right Join: 
 select nome_dono, nome_animal from animal
 right join dono
 on dono.id_dono = animal.dono_id;
