@@ -18,18 +18,18 @@ constraint foreign key (produto_id) references produto (id_produto)
 );
 
 insert into produto(nome_produto) values('HB20 1.6'),
-									    ('Teneré 660cc'),      
-									    ('Honda Civic');
+					('Teneré 660cc'),      
+					('Honda Civic');
 
                                       
 
-insert into vendas(dataVenda,quantidadeVendida,produto_id) values  	('20/02/2024','2','1'),
-																	('21/02/2024','4','2'),
-																	('22/02/2024','6','3'),
-																	('23/02/2024','3','1'),
-																	('24/02/2024','5','2'),
-																	('25/02/2024','7','3'),
-																	('26/02/2024','8','1');
+insert into vendas(dataVenda,quantidadeVendida,produto_id) values ('20/02/2024','2','1'),
+								  ('21/02/2024','4','2'),
+								  ('22/02/2024','6','3'),
+								  ('23/02/2024','3','1'),
+								  ('24/02/2024','5','2'),
+								  ('25/02/2024','7','3'),
+								  ('26/02/2024','8','1');
 
 
 DELIMITER //
