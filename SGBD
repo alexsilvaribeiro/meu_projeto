@@ -1,0 +1,12 @@
+O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que serve para gerenciar um ou mais bancos de dados. Sendo assim, pesquise sobre os bancos de dados mais utilizados no mercado de trabalho e descreva dois deles.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+1. Oracle
+A Oracle é uma grande corporação de tecnologia que hoje oferece diversos serviços em nuvem, desde Inteligência Artificial até Analytics e BI. Porém, começou e ficou famosa por causa do Oracle Autonomous Database ou apenas Oracle Database, o banco de dados mais usado do mundo.
+Lançado em 1979 e em aprimoramento até a atualidade, é um banco de dados que cresceu e é muito utilizado em conjunto com a linguagem de programação Java, para aplicações robustas, como bancárias e financeiras. 
+É um banco de dados relacional em sua origem (baseado em tabelas)mas que hoje já é multi-modelo. Utiliza uma linguagem chamada PL/SQL (linguagem procedural projetada para incluir instruções SQL em sua sintaxe) como linguagem de consulta e manipulação de dados.
+2. MySQL
+MySQL é um SGBD muito famoso e usado por causa de sua integração fácil com a linguagem de programação PHP por esta dupla, MySQL e PHP, estar na origem do WordPress, o sistema de gerenciamento de conteúdo mais popular do mundo.
+É um banco de dados relacional gratuito e fácil de usar, que usa SQL, porém com um ótima capacidade e desempenho para muitas aplicações de websites e webapps. MySQL nasceu como uma solução de código aberto e que hoje também pertence à Oracle. 
+Um “fork” ou desdobramento seu deu origem a outro banco de dados parecido e popular, chamado MariaDB.
+
