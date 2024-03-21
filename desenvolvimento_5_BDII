@@ -1,0 +1,29 @@
+Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, identificamos a necessidade de melhorar a segurança dessas informações. 
+Por isso, será necessário desenvolver um novo banco para armazenar os dados mais importantes, como detalhes dos clientes, valores faturados diariamente
+e informações sobre os produtos, além de outros. 
+  
+Sendo assim, explique quais são os pilares da segurança de dados que devem ser seguidos para que o novo banco seja bem projetado e funcione corretamente
+
+1)Confidencialidade: Garantir que apenas usuários autorizados tenham acesso aos dados. Isso pode ser alcançado através da implementação de controles de acesso,
+como autenticação forte, controle de permissões e criptografia de dados.
+
+2)Integridade: Garantir que os dados sejam precisos, completos e confiáveis. Isso pode ser alcançado utilizando mecanismos de controle de versão, assinaturas digitais,
+checksums e restrições de integridade no banco de dados.
+
+3)Disponibilidade: Garantir que os dados estejam disponíveis quando necessário e que o sistema esteja operacional. Isso pode ser alcançado através da implementação de 
+backups regulares, redundância de servidores, planejamento de capacidade e prontidão para recuperação de desastres.
+
+4)Autenticidade: Garantir que a identidade dos usuários e a origem dos dados possam ser verificadas. Isso pode ser alcançado através de técnicas de autenticação, como senhas fortes, 
+biometria e autenticação de dois fatores.
+
+5)Não repúdio: Garantir que as ações realizadas por usuários possam ser rastreadas até eles e que eles não possam negar ter realizado essas ações. Isso pode ser alcançado através de 
+registros de auditoria, trilhas de auditoria e assinaturas digitais.
+
+6)Resiliência: Garantir que o sistema possa resistir a tentativas de comprometimento e continue operacional mesmo diante de falhas. Isso pode ser alcançado através da implementação de
+medidas de segurança em camadas, monitoramento proativo e resposta a incidentes.
+
+7)Privacidade: Garantir que os dados dos usuários sejam protegidos contra acesso não autorizado e uso indevido. Isso pode ser alcançado através da conformidade com regulamentações de 
+privacidade, como GDPR, CCPA, entre outras, e adoção de práticas de anonimização e pseudonimização de dados quando apropriado.
+
+8)Conformidade: Garantir que o banco de dados esteja em conformidade com as leis, regulamentações e políticas internas relevantes. Isso pode exigir a implementação de controles específicos,
+como retenção de dados, notificação de violações e auditorias regulares.
